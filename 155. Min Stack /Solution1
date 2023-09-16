@@ -1,7 +1,5 @@
-```
+```python
 class MinStack(object):
-    
-
     def __init__(self):
         self.stack = []
         self.minstack = []
@@ -27,24 +25,17 @@ class MinStack(object):
         self.minstack.pop()
         return self.stack.pop()
         
-
     def top(self):
         """
         :rtype: int
         """
         return self.stack[-1]
 
-
-        
-
     def getMin(self):
         """
         :rtype: int
         """
         return self.minstack[-1]
-
-        
-            
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
