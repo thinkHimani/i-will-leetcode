@@ -20,4 +20,5 @@ class Solution(object):
             prev = curr
             curr = temp
         return prev
+# Time:O(n) Memory:O(1)
 ```
